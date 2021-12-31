@@ -33,7 +33,7 @@ program
             spinner.succeed();
             console.log(chalk.green('success! 项目初始化成功！'));
           } else {
-            spinner.failed();
+            spinner.fail();
             console.log(chalk.red('failed! 拉取模板失败', error));
           }
         });
