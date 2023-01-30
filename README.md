@@ -2,7 +2,4 @@
 
 beyoung-cli init app-name
 
-两个模板
-
-1. umi + dva + umi-request
-2. creat-react-app + mobx + umi-request
+基于 vite,两个模板,一个大屏,一个后台
