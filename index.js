@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-const program = require('commander');
-const inquirer = require('inquirer');
-const download = require('download-git-repo');
-const ora = require('ora');
-const chalk = require('chalk');
-const path = require('path');
+import { program } from 'commander';
+import inquirer from 'inquirer';
+import download from 'download-git-repo';
+import ora from 'ora';
+import chalk from 'chalk';
+import path from 'path';
 
 program
   .command('init <name>')
